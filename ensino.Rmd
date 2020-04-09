@@ -10,19 +10,19 @@ output:
 
 ## Graduação
 
-- Ecologia - Cálculo 1 (1S2016)
-- Ciência da Computação - Cálculo 3 (1S2016)
-- Ciência da Computação - Cálculo 1 (1S2019)
-- Física - Cálculo 1 (1S2019/2S2019)
-- Ciência da Computação - Cálculo 2 (2S2019)
-- Física - Álgebra Linear (2S2019)
-- Matemática - Geometria Diferencial (2S2019) 
-- Matemática - Teoria dos Números (1S2020)
-- Geologia - Geomtria Analítica e Álgebra Linear (1S2020)
-- Engenharia - Tópicos de Matemática (1S2020)
-- Engenharia - Cálculo de Funções de Várias Variáveis (1S2020)
-- Ciência da Computação - Tópicos de Matemática Aplicada (1S2020)
 - Sistemas de Informação - Tópicos de Matemática Aplicada (1S2020)
+- Ciência da Computação - Tópicos de Matemática Aplicada (1S2020)
+- Engenharia - Cálculo de Funções de Várias Variáveis (1S2020)
+- Engenharia - Tópicos de Matemática (1S2020)
+- Geologia - Geomtria Analítica e Álgebra Linear (1S2020)
+- Matemática - Teoria dos Números (1S2020)
+- Matemática - Geometria Diferencial (2S2019) 
+- Física - Álgebra Linear (2S2019)
+- Ciência da Computação - Cálculo 2 (2S2019)
+- Física - Cálculo 1 (1S2019/2S2019)
+- Ciência da Computação - Cálculo 1 (1S2019)
+- Ciência da Computação - Cálculo 3 (1S2016)
+- Ecologia - Cálculo 1 (1S2016)
 
 ---- 
 
