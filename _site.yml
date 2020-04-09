@@ -13,7 +13,7 @@ navbar:
 output_dir: "."
 output:
   html_document:
-    theme: lumen
+    theme: jekyll #lumen
     highlight: textmate
 #    include:
 #      after_body: _footer.html
