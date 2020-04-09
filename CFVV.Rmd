@@ -1,0 +1,59 @@
+---
+title: "CFVV"
+output:
+  html_document:
+    fig_width: 1
+    toc_float: false
+---
+
+**Primeiro Semestre de 2020**
+
+<!-- **Aulas:** Segundas, 19h00-21h00 e Terças, 21h00-23h00 -->
+
+<!-- **AVISO:**<span style="color:red"> Em virtude da pandemia de coronavírus fiquem atentos ao Moodle e ao email.  -->
+
+----
+
+<!-- ### **Ementa**
+<!-- - [Ementa](Disciplinas/ME_951_1s2020/EmentaNew.pdf): Ementa atualizada devido ao COVID-19.
+    - [Vídeo](https://youtu.be/J-N6LGQkAtA): Vídeo explicando a nova ementa e a exclarencendo como será a disciplina durante o isolamento. -->
+
+<!-- - [Cronograma](Disciplinas/ME_951_1s2020/Cronograma.pdf) -->
+
+----
+
+### **Aulas**
+
+- [Derivadas Direcionais](Disciplinas/CFVV/DerivadasDir.pdf). 
+
+<!-- - [Parte 2](Disciplinas/ME_951_1s2019/Parte2.pdf): Estatísticas Sumárias. -->
+
+<!--  - [Parte 3](Disciplinas/ME_951_1s2019/Parte3.pdf):  Análise Exploratória dos dados: Dispersão; Assimetria; Quartis. 
+     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-13-distribuicao-de-frequencia?module_item_id=211124) 
+     
+     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-15-medidas-de-posicao-e-dispersao?module_item_id=211128) -->
+ 
+</p>
+
+<!--  - [Parte 4](Disciplinas/ME_951_1s2019/Parte4.pdf): Análise Descritiva Bivariada: Diagrama de dispersão; Correlação; Tabelas de contingência e gráficos de barras. 
+<!--  - [Parte 5](Disciplinas/ME_951_1s2019/Parte5.pdf): Probabilidade: Definição; Espaço amostral; Eventos; Operações com eventos; Partições do espaço amostral.
+     - [Videoaula Univesp](https://integra.univesp.br/courses/2726/pages/videoaula-2-probabilidade-conceitos-fundamentais?module_item_id=211198) -->
+ 
+----
+
+<!--  ### **Listas**
+<!-- - [Tabelas das distribuições](Disciplinas/ME_951_1s2019/Tabelas.pdf): Tabelas para serem usadas na resolução dos exercícios. -->
+
+<!--  - [Lista 1](Disciplinas/ME_951_1s2020/Lista1.pdf): Estatística Descritiva. 
+<!-- - [Lista 2](Disciplinas/ME_951_1s2020/Lista2.pdf): Probabilidade.
+<!-- - [Lista 3](Disciplinas/ME_951_1s2020/Lista3.pdf): Variáveis Aleatórias Discretas. -->
+
+<!-- - [Lista 4](Disciplinas/ME_951_1s2020/Lista4.pdf): Variáveis Aleatórias Contínuas.  -->
+
+<!-- - [Lista 5](Disciplinas/ME_951_1s2020/Lista5.pdf): Variáveis Aleatórias Contínuas e IC para proporção. -->
+
+<!-- - [Lista 6](Disciplinas/ME_951_1s2020/Lista6.pdf): Intervalo de confiança.  -->
+
+<!-- - [Lista 7](Disciplinas/ME_951_1s2020/Lista7.pdf): Teste de Hipóteses.  -->
+
+----
