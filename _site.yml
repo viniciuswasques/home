@@ -1,13 +1,13 @@
-name: “Larissa Avila Matos”
+name: “Vinícius Francisco Wasques”
 navbar:
-  title: Larissa A. Matos
+  title: Vinícius F. Wasques
   left:
     - text: Ensino
       href: ensino.html
     - text: Publicações
       href: publicacoes.html
-    - text: Alunos
-      href: alunos.html
+  #  - text: Alunos
+  #    href: alunos.html
     - text: Contato
       href: contato.html
 output_dir: "."
