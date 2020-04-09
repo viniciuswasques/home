@@ -9,44 +9,56 @@ output:
 
 ## Artigos Científicos
 
-- MATOS, LARISSA A.; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. Influence diagnostics in linear and nonlinear mixed-effects models with censored data. Computational Statistics & Data Analysis (Print), v. 57, p. 450-464, 2013. \bigskip
+- V. F. Wasques, E. Esmi, L. C. Barros, P. Sussner.: The generalized fuzzy derivative is interactive, Information Sciences, 519, 93-109 \bigskip
 
 
-- MATOS, LARISSA A.; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution. Statistica Sinica, v. 23, p. 1323-1345, 2013.\medskip
+- D. E. Sánchez, V. F. Wasques, E. Esmi, L. C. Barros.: Consecutive Chemical Reactions Models via P-Fuzzy Systems, Proceeding Series of the Brazilian Society of Computational and Applied Mathematics, 7, 1-7 \medskip
 
 
-- MASSUIA, MONIQUE B.; CABRAL, CELSO RÔMULO BARBOSA; MATOS, LARISSA A.; LACHOS, VÍCTOR H. Influence diagnostics for Student- t censored linear regression models. Statistics (Berlin), v. 49, p. 1-21, 2014.\medskip
+- V. Wasques, E. Esmi, L. C. Barros, P. Sussner.: Numerical Solution for Lotka-Volterra Model of Oscillating Chemical Reactions with Interactive Fuzzy Initial Conditions, 2019 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology (EUSFLAT 2019) \medskip
 
 
-- MATOS, LARISSA A.; BANDYOPADHYAY, DIPANKAR; CASTRO, LUIS M.; LACHOS, VICTOR H. Influence assessment in censored mixed-effects models using the multivariate Student’s-. Journal of Multivariate Analysis, v. 141, p. 104-117, 2015. \medskip
+- E. Esmi, L. C. Barros, V. F. Wasques.: Some notes on the addition of interactive fuzzy numbers, International Fuzzy Systems Association World Congress, 246-257 \medskip
 
 
-- MATOS, LARISSA A.; CASTRO, LUIS M.; LACHOS, VICTOR H. Censored Mixed-Effects Models for Irregularly Observed Repeated Measures with Applications to HIV Viral Loads.TEST. DOI 10.1007/s11749-016-0486-2 \medskip
+- N. J. B. Pinto, E. Esmi, V. F. Wasques, L. C. Barros.: Least Square Method with Quasi Linearly Interactive Fuzzy Data: Fitting an HIV Dataset, International Fuzzy Systems Association World Congress, 177-189 \medskip
 
 
-- LACHOS, VICTOR H.; MATOS, LARISSA A.; BARBOSA, T. S.; GARAY, Aldo M. Influence Diagnostics in Spatial Models with Censored Response. Environmetrics.
+- V. F. Wasques, E. Esmi, L. C. Barros, B. Bede.: Comparison Between Numerical Solutions of Fuzzy Initial-Value Problems via Interactive and Standard Arithmetics, International Fuzzy Systems Association World Congress, 704-715 \medskip
+
+- V. F. Wasques, D. D. C. Santos, E. Esmi, R. Z. G. Oliveira.: Consistência de um SBRF aplicado a um modelo de perfuração de poços com boas vazões, Proceeding Series of the Brazilian Society of Computational and Applied Mathematics, 6, 1-7\medskip
+
+- V. F. Wasques, E. E. Laureano, L. C. Barros, F. Santo Pedro, P. Sussner.: Higher order initial value problem with interactive fuzzy conditions, 2018 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE), 1-8\medskip
+
+- N. J. B. Pinto, V. F. Wasques, E. Esmi, L. C. Barros.: Least squares method with interactive fuzzy coefficient: application on longitudinal data, North American Fuzzy Information Processing Society Annual Conference, 132-143 
+
+- V. F. Wasques, E. Esmi, L. C. Barros, P. Sussner.: Numerical solutions for bidimensional initial value problem with interactive fuzzy numbers, North American Fuzzy Information Processing Society Annual Conference, 84-95 \medskip
+
+- V.Wasques, R. Oliveira, A. Oliva, Um modelo fuzzy para auxiliar na escolha de locais para perfuração de poços artesianos, Biomatemática (UNICAMP) 27 (1), 19-36 \medskip
+
+- V. Wasques, E. Esmi, L. Barros, Solução numérica para PVI com condições iniciais fuzzy interativas: uma aplicação a modelos do tipo SIR, Biomatemática (UNICAMP) 27 (2), 127-144
+
 
 ----
 
-## Relatórios Técnicos
+## Dissertação de mestrado
 
-- MATOS, LARISSA A.; LACHOS, VICTOR H.; LIN, T.I.; CASTRO, LUIS M. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective. RT 01 IMECC-UNICAMP, 2016.\medskip
-
-
-- MATOS, LARISSA A.; CABRAL, CELSO RÔMULO BARBOSA; LACHOS, VICTOR H.; CASTRO, LUIS M. Multivariate Measurement Error Models Based on Student-t Distribution with Censored Responses.  Statistics.\medskip
-
-- LACHOS, VICTOR H.; MATOS, LARISSA A.; CASTRO, LUIS M.; CHEN, MING-HUI. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data.\medskip
-
-
-- Lemus, M.N., Lachos, V.H., Galarza, C.E. and Matos, L.A..Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions. Technical Report, 18-02, University of Connecticut.
+- WASQUES, Vinícius Francisco. Lógica Fuzzy aplicada à geologia. 118 f. Dissertação - (mestrado) - Universidade Estadual Paulista, Instituto de Geociências e Ciências Exatas, 2015.
 
 ---- 
 
-## Programas de computador sem registro
+
+## Tese de doutorado
+
+- WASQUES, Vinícius Francisco. Fuzzy Differential Equations via Interactive Arithmetic: Applications in Biomathematics. 219 f. Tese - (doutorado) - Universidade Estadual de Campinas, Instituto de Matemática, Estatística e Computação Científica, 2019.
+
+---- 
+
+<!-- ## Programas de computador sem registro
 
 - MATOS, LARISSA A.; PRATES, MARCOS O.; Lachos, V. H.  tlmec: Linear Student-t Mixed-Effects Models with Censored Data. 2011. https://cran.r-project.org/web/packages/tlmec/index.html\medskip
 
 
-- Lemus, M.N., Galarza, C.E., Matos, L.A. and Lachos, V.H. (2018). PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions.https://cran.rproject.org/web/packages/PartCensReg/index.html
+- Lemus, M.N., Galarza, C.E., Matos, L.A. and Lachos, V.H. (2018). PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions.https://cran.rproject.org/web/packages/PartCensReg/index.html -->
 
 
