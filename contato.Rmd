@@ -14,13 +14,13 @@ output:
 
 <!-- Cidade Universitária, Campinas/SP - Brasil
 
-<!-- CEP: 13083-859 
+<!-- CEP: 13083-859 -->
 
 ----
 
 <!-- ## Telefone
 
-<!-- Interno/Externo: 16077 / 3251-6077
+<!-- Interno/Externo: 16077 / 3251-6077 -->
 
 ----
 
@@ -30,6 +30,6 @@ viniciuswasques@gmail.com
 
 ----
 
-<!--## Redes sociais
+<!--## Redes sociais -->
 
 
