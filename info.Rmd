@@ -17,7 +17,7 @@ output:
     
     `Universidade Estadual Paulista "Júlio de Mesquita Filho", UNESP. 
 
-- 2012-2016: **Doutorado em Matemática Aplicada** ![](imagens/logounicamp.jpg){width=50px}![](imagens/logouconn2.jpg){width=70px}![](imagens/logofapesp.png){width=60px}  
+- 2015-2019: **Doutorado em Matemática Aplicada** ![](imagens/logounicamp.jpg){width=50px}![](imagens/logouconn2.jpg){width=70px}![](imagens/logofapesp.png){width=60px}  
 
     `Universidade Estadual de Campinas, UNICAMP. Bolsista CNPq e Capes.`
 
