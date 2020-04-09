@@ -8,28 +8,28 @@ output:
 
 ----
 
-## Endereço
+<!-- ## Endereço
 
-Rua Sergio Buarque de Holanda, 651 - Sala: 234
+<!-- Rua Sergio Buarque de Holanda, 651 - Sala: 234
 
-Cidade Universitária, Campinas/SP - Brasil
+<!-- Cidade Universitária, Campinas/SP - Brasil
 
-CEP: 13083-859
+<!-- CEP: 13083-859 
 
 ----
 
-## Telefone
+<!-- ## Telefone
 
-Interno/Externo: 16077 / 3251-6077
+<!-- Interno/Externo: 16077 / 3251-6077
 
 ----
 
 ## Email
 
-larissam\@ime.unicamp.br
+viniciuswasques@gmail.com
 
 ----
 
-## Redes sociais
+<!--## Redes sociais
 
 
