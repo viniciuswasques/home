@@ -1,0 +1,28 @@
+---
+title: "Teoria dos Numeros"
+output:
+  html_document:
+    fig_width: 1
+    toc_float: false
+---
+
+**Primeiro Semestre de 2020**
+
+<!-- **Aulas:** Segundas, 19h00-21h00 e Terças, 21h00-23h00 -->
+
+<!-- **AVISO:**<span style="color:red"> Em virtude da pandemia de coronavírus fiquem atentos ao Moodle e ao email.  -->
+
+----
+
+<!-- ### **Ementa**
+<!-- - [Ementa](Disciplinas/ME_951_1s2020/EmentaNew.pdf): Ementa atualizada devido ao COVID-19.
+    - [Vídeo](https://youtu.be/J-N6LGQkAtA): Vídeo explicando a nova ementa e a exclarencendo como será a disciplina durante o isolamento. -->
+
+<!-- - [Cronograma](Disciplinas/ME_951_1s2020/Cronograma.pdf) -->
+
+----
+
+### **Listas de Exercícios**
+
+- [Lista 1](Disciplinas/TeoNum/Lista1.pdf). 
+
