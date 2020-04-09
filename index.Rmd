@@ -1,5 +1,5 @@
 ---
-title: "Larissa Avila Matos"
+title: "Vinícius Francisco Wasques"
 output:
   html_document:
     fig_width: 1
@@ -8,12 +8,14 @@ output:
 
 ----
 
-Professora Doutora (MS-3.1)
+Professor Doutor
 
-Departamento de Estatística
+Departamento de Matemática
 
-Instituto de Matemática, Estatística e Computação Científica - IMECC
+Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP.
 
-Universidade Estadual de Campinas - UNICAMP.
+Departamento de Engenharia, Ciência da Computação e Sistemas de Informação
+
+Universidade Paulista - UNIP.
 
 ----
