@@ -27,6 +27,8 @@ output:
 ### **Aulas**
 
 - [Matrizes](Disciplinas/TOPMAT/Matrizes.pdf). 
+- [Função](Disciplinas/TOPMAT/Funcoes.pdf).
+- [Função de primeiro grau](Disciplinas/TOPMAT/Funcoesprimeirograu.pdf).
 
 <!-- - [Parte 2](Disciplinas/ME_951_1s2019/Parte2.pdf): Estatísticas Sumárias. -->
 
