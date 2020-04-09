@@ -10,18 +10,24 @@ output:
 
 ## Graduação
 
-- ME111 - Laboratório de Estatística (1S2018)
-- ME414 - Estatística para Experimentalistas (2S2017)
-- ME639 -  Metodologias e Técnicas de Pesquisa (1S2018)
-- ME710 - Assessoria Estatística (1S2018) 
-- ME712 -  Consultoria Estatística I (1S2018)
-- ME810 - Estágio Supervisionado (1S2018)
-- ME850 - Seminários de Estatística (1S2018)
+- Ecologia - Cálculo 1 (1S2016)
+- Ciência da Computação - Cálculo 3 (1S2016)
+- Ciência da Computação - Cálculo 1 (1S2019)
+- Física - Cálculo 1 (1S2019/2S2019)
+- Ciência da Computação - Cálculo 2 (2S2019)
+- Física - Álgebra Linear (2S2019)
+- Matemática - Geometria Diferencial (2S2019) 
+- Matemática - Teoria dos Números (1S2020)
+- Geologia - Geomtria Analítica e Álgebra Linear (1S2020)
+- Engenharia - Tópicos de Matemática (1S2020)
+- Engenharia - Cálculo de Funções de Várias Variáveis (1S2020)
+- Ciência da Computação - Tópicos de Matemática Aplicada (1S2020)
+- Sistemas de Informação - Tópicos de Matemática Aplicada (1S2020)
 
 ---- 
 
-## Pós-Graduação
+<!-- ## Pós-Graduação
 
-- MI416 - Introdução aos Modelos Lineares (2S2017)
+- MI416 - Introdução aos Modelos Lineares (2S2017) -->
 
 
