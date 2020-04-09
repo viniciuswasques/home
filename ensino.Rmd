@@ -1,0 +1,27 @@
+---
+title: "Ensino"
+output:
+  html_document:
+    fig_width: 1
+---
+
+
+----
+
+## Graduação
+
+- ME111 - Laboratório de Estatística (1S2018)
+- ME414 - Estatística para Experimentalistas (2S2017)
+- ME639 -  Metodologias e Técnicas de Pesquisa (1S2018)
+- ME710 - Assessoria Estatística (1S2018) 
+- ME712 -  Consultoria Estatística I (1S2018)
+- ME810 - Estágio Supervisionado (1S2018)
+- ME850 - Seminários de Estatística (1S2018)
+
+---- 
+
+## Pós-Graduação
+
+- MI416 - Introdução aos Modelos Lineares (2S2017)
+
+

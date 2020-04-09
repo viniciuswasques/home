@@ -1,0 +1,19 @@
+---
+title: "Larissa Avila Matos"
+output:
+  html_document:
+    fig_width: 1
+---
+
+
+----
+
+Professora Doutora (MS-3.1)
+
+Departamento de Estatística
+
+Instituto de Matemática, Estatística e Computação Científica - IMECC
+
+Universidade Estadual de Campinas - UNICAMP.
+
+----

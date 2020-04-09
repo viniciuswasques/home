@@ -1,0 +1,52 @@
+---
+title: "Publicações"
+output:
+  html_document:
+    fig_width: 1
+---
+
+----
+
+## Artigos Científicos
+
+- MATOS, LARISSA A.; LACHOS, VICTOR H.; BALAKRISHNAN, N.; LABRA, FILIDOR V. Influence diagnostics in linear and nonlinear mixed-effects models with censored data. Computational Statistics & Data Analysis (Print), v. 57, p. 450-464, 2013. \bigskip
+
+
+- MATOS, LARISSA A.; PRATES, MARCOS O.; CHEN, MING-HUI; LACHOS, VICTOR H. Likelihood Based Inference Mixed-Effects Models with Censored Responses Using the Multivariate-t Distribution. Statistica Sinica, v. 23, p. 1323-1345, 2013.\medskip
+
+
+- MASSUIA, MONIQUE B.; CABRAL, CELSO RÔMULO BARBOSA; MATOS, LARISSA A.; LACHOS, VÍCTOR H. Influence diagnostics for Student- t censored linear regression models. Statistics (Berlin), v. 49, p. 1-21, 2014.\medskip
+
+
+- MATOS, LARISSA A.; BANDYOPADHYAY, DIPANKAR; CASTRO, LUIS M.; LACHOS, VICTOR H. Influence assessment in censored mixed-effects models using the multivariate Student’s-. Journal of Multivariate Analysis, v. 141, p. 104-117, 2015. \medskip
+
+
+- MATOS, LARISSA A.; CASTRO, LUIS M.; LACHOS, VICTOR H. Censored Mixed-Effects Models for Irregularly Observed Repeated Measures with Applications to HIV Viral Loads.TEST. DOI 10.1007/s11749-016-0486-2 \medskip
+
+
+- LACHOS, VICTOR H.; MATOS, LARISSA A.; BARBOSA, T. S.; GARAY, Aldo M. Influence Diagnostics in Spatial Models with Censored Response. Environmetrics.
+
+----
+
+## Relatórios Técnicos
+
+- MATOS, LARISSA A.; LACHOS, VICTOR H.; LIN, T.I.; CASTRO, LUIS M. Heavy-tailed longitudinal regression models for censored data: A likelihood based perspective. RT 01 IMECC-UNICAMP, 2016.\medskip
+
+
+- MATOS, LARISSA A.; CABRAL, CELSO RÔMULO BARBOSA; LACHOS, VICTOR H.; CASTRO, LUIS M. Multivariate Measurement Error Models Based on Student-t Distribution with Censored Responses.  Statistics.\medskip
+
+- LACHOS, VICTOR H.; MATOS, LARISSA A.; CASTRO, LUIS M.; CHEN, MING-HUI. Heavy-Tailed Longitudinal Linear Mixed Models for Multiple Censored Responses Data.\medskip
+
+
+- Lemus, M.N., Lachos, V.H., Galarza, C.E. and Matos, L.A..Estimation and Diagnostics for Partially Censored Regression Models Based on Heavy-Tailed Distributions. Technical Report, 18-02, University of Connecticut.
+
+---- 
+
+## Programas de computador sem registro
+
+- MATOS, LARISSA A.; PRATES, MARCOS O.; Lachos, V. H.  tlmec: Linear Student-t Mixed-Effects Models with Censored Data. 2011. https://cran.r-project.org/web/packages/tlmec/index.html\medskip
+
+
+- Lemus, M.N., Galarza, C.E., Matos, L.A. and Lachos, V.H. (2018). PartCensReg: Partially Censored Regression Models Based on Heavy-Tailed Distributions.https://cran.rproject.org/web/packages/PartCensReg/index.html
+
+
