@@ -1,0 +1,293 @@
+\documentclass[a4,11pt]{report}
+
+\usepackage[brazil]{babel}      % para texto em Português
+%\usepackage[english]{babel}    % para texto em Inglês
+
+\usepackage[latin1]{inputenc}   % para acentuação em Português OU
+%\usepackage[utf8]{inputenc}   % para acentuação em Português com o uso do Unicode, 
+% mude a codificação desse template para utf-8
+
+%%
+%% POR FAVOR, NÃO FAÇA MUDANÇAS NESSE TEMPLATE QUE ACARRETEM  EM
+%% ALTERAÇÃO NA FORMATAÇÃO FINAL DO TEXTO
+%%
+\usepackage{graphics}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage[centertags]{amsmath}
+\usepackage{longtable}
+\usepackage{cite}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{makeidx}
+\usepackage{amsfonts}
+\newtheorem{exercicio}{Exercício}[section]
+\newtheorem{propriedades}{Propriedades}[section]
+\newtheorem{solucao}{Solução}[section]
+\newtheorem{exercicioprop}{Exercícios Propostos}[section]
+\newtheorem{propriedade}{Propriedade}[section]
+\newtheorem{exemplo}{Exemplo}[section]
+\newtheorem{observacao}{Observação}[section]
+
+
+
+\begin{document}
+
+%********************************************************
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Universidade Estadual Paulista \\ ``Júlio de Mesquita Filho''}\\[1.5cm] % Name of your university/college
+\textsc{\Large Exercícios Resolvidos - 09/04/2016}\\[0.5cm] % Major heading such as course name
+%\textsc{\large Versão 1}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Cálculo 3 - Ciências da Computação}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushleft} \large
+%\emph{Author:}\\
+%John \textsc{Smith} % Your name
+%\end{flushleft}
+%\end{minipage}
+%~
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushright} \large
+%\emph{Supervisor:} \\
+%Dr. James \textsc{Smith} % Supervisor's Name
+%\end{flushright}
+%\end{minipage}\\[4cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+\Large \emph{Professor:}\\
+Vinícius F. \textsc{Wasques}\\ viniwasques@hotmail.com \\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+{\large \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%\textsc{\large (Versão 1)}\\[0.5cm] 
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+%\listoftables
+
+%\listoffigures 
+
+%\tableofcontents
+
+\section{Exercícios :}
+
+\begin{exercicio}
+
+\begin{enumerate}
+\item[(a)] Seja $f:\mathbb{R}^{2}\rightarrow \mathbb{R}$ a função definida abaixo:
+
+$$f(x,y)=\begin{cases}\frac{x^2-y^2}{x^2+y^2} & ,(x,y)\neq (0,0) \\
+0 & ,(x,y)=(0,0)\end{cases}$$
+
+Essa função é contínua na origem?
+
+\textbf{Solução:}
+
+Lembrando que, para a função $f$ ser contínua no ponto $(0,0)$, ela deve estar definida nesse ponto, deve existir o limite no ponto e mais, $\lim_{(x,y)\rightarrow (0,0)}f(x,y)=f(0,0)$. Desse modo, temos que a função dada não é contínua na origem, pois mesmo que ela esteja definida no ponto, temos que não existe o limite da função, isto é, $\not\exists\lim_{(x,y)\rightarrow (0,0)}f(x,y)$.
+
+De fato, tomando-se as curvas $\gamma_{1}(t)=(t,t)$ e $\gamma_{2}(t)=(t,0)$ temos que:
+
+$$\lim_{t\rightarrow 0}f(\gamma_{1}(t))=\lim_{t\rightarrow 0}\frac{0}{2t^2}=0$$
+
+Enquanto que,
+
+$$\lim_{t\rightarrow 0}f(\gamma_{2}(t))=\lim_{t\rightarrow 0}\frac{t^2}{t^2}=1$$
+
+Portanto, não existe o limite da função no ponto, e assim segue o resultado.
+
+\item[(b)] Seja $f:\mathbb{R}^{2}\rightarrow \mathbb{R}$ a função definida abaixo:
+
+$$f(x,y)=\begin{cases}\frac{x^2-2xy+y^2}{x-y}= & ,(x,y)\neq (0,0) \\
+0 & ,(x,y)=(0,0)\end{cases}$$
+
+Essa função é contínua na origem?
+
+\textbf{Solução:}
+Sim, a função é contínua na origem. Perceba que a função é definida no ponto e mais, existe o limite da função. Portanto basta verificar a última condição, isto é, $\lim_{(x,y)\rightarrow (0,0)}f(x,y)=f(0,0)$. Pois bem,
+
+$$\lim_{(x,y)\rightarrow (0,0)}\frac{x^2-2xy+y^2}{x-y}=\lim_{(x,y)\rightarrow (0,0)}\frac{(x-y)^2}{x-y}$$
+
+$$=\lim_{(x,y)\rightarrow (0,0)}x-y=0$$
+
+Por outro lado, temos por definição da função $f$ que, $f(0,0)=0$ logo 
+
+$$\lim_{(x,y)\rightarrow (0,0)}f(x,y)=f(0,0)$$
+
+Concluindo assim a continuidade da função.
+
+\end{enumerate}
+
+\end{exercicio}	
+
+\begin{exercicio}
+Calcule as derivadas parciais de $1^{\underline{a}}$ ordem, através de limite, das seguintes funções:
+
+\begin{enumerate}
+	\item[(a)] $f(x,y)=x^2+y^2$
+	
+	\textbf{Solução:}
+	
+	$$\dfrac{\partial f}{\partial x}=\lim_{\Delta x\rightarrow 0}\frac{f(x+\Delta x,y)-f(x,y)}{\Delta x}$$
+	
+	$$=\lim_{\Delta x\rightarrow 0}\frac{(x+\Delta x)^2+y^2-x^2-y^2}{\Delta x}$$
+	
+	$$=\lim_{\Delta x\rightarrow 0}\frac{x^2+2x(\Delta x) +(\Delta x)^2+y^2-x^2-y^2}{\Delta x}$$
+	
+	$$=\lim_{\Delta x\rightarrow 0}\frac{2x(\Delta x)+(\Delta x)^2}{\Delta x}$$
+	
+	$$=\lim_{\Delta x\rightarrow 0}2x+\Delta x=2x$$
+	
+	$$\dfrac{\partial f}{\partial y}=\lim_{\Delta y\rightarrow 0}\frac{f(x,y+\Delta y)-f(x,y)}{\Delta y}$$
+	
+	$$=\lim_{\Delta y\rightarrow 0}\frac{x^2+(y+\Delta y)^2-x^2-y^2}{\Delta y}$$
+	
+	$$=\lim_{\Delta y\rightarrow 0}\frac{x^2+y^2+2y(\Delta y)+(\Delta y)^2-x^2-y^2}{\Delta y}$$
+	
+	$$=\lim_{\Delta y\rightarrow 0}\frac{2y(\Delta y)+(\Delta y)^2}{\Delta y}$$
+	
+	$$=\lim_{\Delta y\rightarrow 0}2y+\Delta y=2y$$
+	
+\item[(b)] $f(x,y,z)=xyz$
+
+\textbf{Solução:}
+
+$$\dfrac{\partial f}{\partial x}=\lim_{\Delta x\rightarrow 0}\frac{f(x+\Delta x,y,z)-f(x,y,z)}{\Delta x}$$
+	
+	$$=\lim_{\Delta x\rightarrow 0}\frac{(x+\Delta x)yz-xyz}{\Delta x}$$
+	
+	$$=\lim_{\Delta x\rightarrow 0}\frac{xyz+\Delta xyz-xyz}{\Delta x}$$
+	
+	$$=\lim_{\Delta x\rightarrow 0}\frac{\Delta xyz}{\Delta x}$$
+	
+	$$=\lim_{\Delta x\rightarrow 0}yz=yz$$
+	
+	$$\dfrac{\partial f}{\partial y}=\lim_{\Delta y\rightarrow 0}\frac{f(x,y+\Delta y,z)-f(x,y,z)}{\Delta y}$$
+	
+	$$=\lim_{\Delta y\rightarrow 0}\frac{x(y+\Delta y)z-xyz}{\Delta y}$$
+	
+	$$=\lim_{\Delta y\rightarrow 0}\frac{xyz+x\Delta yz-xyz}{\Delta y}$$
+	
+	$$=\lim_{\Delta y\rightarrow 0}\frac{x\Delta yz}{\Delta y}$$
+	
+	$$=\lim_{\Delta y\rightarrow 0}xz=xz$$
+
+  $$\dfrac{\partial f}{\partial z}=\lim_{\Delta z\rightarrow 0}\frac{f(x,y,z+\Delta z)-f(x,y,z)}{\Delta z}$$
+	
+	$$=\lim_{\Delta z\rightarrow 0}\frac{xy(z+\Delta z)-xyz}{\Delta z}$$
+	
+	$$=\lim_{\Delta z\rightarrow 0}\frac{xyz+xy\Delta z-xyz}{\Delta z}$$
+	
+	$$=\lim_{\Delta z\rightarrow 0}\frac{xy\Delta z}{\Delta z}$$
+	
+	$$=\lim_{\Delta z\rightarrow 0}xy=xy$$
+
+\end{enumerate}
+\end{exercicio}
+
+\begin{exercicio}
+Calcule as derivas de  $1^{\underline{a}}$ ordem das seguintes funções:
+
+\begin{enumerate}
+	\item[(a)] $f(x,y)=\frac{x^3+y^2}{x^2+y^2}$
+	
+	\textbf{Solução:}
+	
+	$$\dfrac{\partial f}{\partial x}=\frac{3x^2(x^2+y^2)-(x^3+y^2)2x}{(x^2+y^2)^2}$$
+	
+	$$=\frac{3x^4+3x^2y^2-2x^4-2xy^2}{(x^2+y^2)^2}$$
+	
+	$$=\frac{x^4+3x^2y^2-2xy^2}{(x^2+y^2)^2}$$
+	
+	$$\dfrac{\partial f}{\partial y}=\frac{2y(x^2+y^2)-(x^3+y^2)2y}{(x^2+y^2)^2}$$
+	
+	$$=\frac{2yx^2+2y^3-2yx^3-2y^3}{(x^2+y^2)^2}$$
+	
+	$$=\frac{2yx^2-2yx^3}{(x^2+y^2)^2}$$
+	
+	\item[(b)] $f(x,y)=e^{-x^2-y^2}$
+	
+	\textbf{Solução:}
+	
+	$$\dfrac{\partial f}{\partial x}=-2xe^{-x^2-y^2}$$
+	
+	$$\dfrac{\partial f}{\partial y}=-2ye^{-x^2-y^2}$$
+	
+	
+\end{enumerate}
+\end{exercicio}
+
+\begin{exercicio}
+Seja $f(x,y,z)=\frac{x}{x^2+y^2+z^2}$. Mostre que 
+
+$$x\dfrac{\partial f}{\partial x}+y\dfrac{\partial f}{\partial y}+z\dfrac{\partial f}{\partial z}=-f$$
+
+\textbf{Solução:}
+
+Primeiro calculemos as derivadas parciais:
+
+$$\dfrac{\partial f}{\partial x}=\frac{x^2+y^2+z^2-x(2x)}{(x^2+y^2+z^2)^2}=\frac{-x^2+y^2+z^2}{(x^2+y^2+z^2)^2}$$
+
+$$\dfrac{\partial f}{\partial y}=\frac{-x(2y)}{(x^2+y^2+z^2)^2}=\frac{-2xy}{(x^2+y^2+z^2)^2}$$
+
+$$\dfrac{\partial f}{\partial z}=\frac{-x(2z)}{(x^2+y^2+z^2)^2}=\frac{-2xz}{(x^2+y^2+z^2)^2}$$
+
+Desse modo, temos que:
+
+$$x\dfrac{\partial f}{\partial x}+y\dfrac{\partial f}{\partial y}+z\dfrac{\partial f}{\partial z}=$$
+
+$$=x\frac{-x^2+y^2+z^2}{(x^2+y^2+z^2)^2}+y\frac{-2xy}{(x^2+y^2+z^2)^2}+z\frac{-2xz}{(x^2+y^2+z^2)^2}$$
+
+$$=\frac{-x^3+xy^2+xz^2-2xy^2-2xz^2}{(x^2+y^2+z^2)^2}$$
+
+$$=\frac{-x^3-xy^2-xz^2}{(x^2+y^2+z^2)^2}$$
+
+$$=-x\frac{x^2+y^2+z^2}{(x^2+y^2+z^2)^2}$$
+
+$$=-\frac{x}{x^2+y^2+z^2}$$
+
+$$=-f$$
+
+E assim segue o resultado.
+\end{exercicio}
+
+\end{document}
+
+
+
+
