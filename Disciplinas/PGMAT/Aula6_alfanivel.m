@@ -15,10 +15,10 @@ a = 1; % entrada do numero fuzzy triangular (a,u,b)
 u = 2; % entrada do numero fuzzy triangular (a,u,b)
 b = 3; % entrada do numero fuzzy triangular (a,u,b)
 
-alfa = linspace(0,1,101);
+alfa = linspace(0,1,101); % particiona o alfa-nivel
 
-alfaesq = a+alfa*(u-a);
-alfadir = b+alfa*(u-b);
+alfaesq = a+alfa*(u-a); % calcula o extremo esquerdo do alfa-nivel
+alfadir = b+alfa*(u-b); % calcula o extremo direito do alfa-nivel
 
 figure
-plot(alfaesq,alfa,'b',alfadir,alfa,'b')
+plot(alfaesq,alfa,'b',alfadir,alfa,'b') % o comando 'b' especifica a cor do grafico. No caso 'b' significa cor azul (do ingles, blue)

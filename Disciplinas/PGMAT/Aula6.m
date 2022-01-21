@@ -26,15 +26,15 @@ pertinencia = zeros(length(U),1); % o comando zeros(m,n) cria uma matriz
 % n representa o numero de colunas
 % o comando length(X) determina o tamanho do 'vetor' X
 
-for i = 1:length(U)
-  if (U(i)>=1 && U(i)<2)
+for i = 1:length(U) % inicio do calculo das pertinencias varrendo todo o dominio escolhido acima
+  if (U(i)>=1 && U(i)<2) % separando em casos e definindo o calculo para o intervalo [1,2)
     pertinencia(i,1) = pertesq(U(i));
-  elseif (U(i)>=2 && U(i)<3)
+  elseif (U(i)>=2 && U(i)<3) % separando em casos e definindo o calculo para o intervalo [2,3)
     pertinencia(i,1) = pertdir(U(i));
-  else 
+  else % separando em casos e definindo o calculo para o caso em que a pertinencia eh nula
     pertinencia(i,1) = 0;
   endif
 endfor
     
-figure
-plot(U,pertinencia) 
+figure % comando para abrir uma janela que plota a imagem
+plot(U,pertinencia) % comando plot(dominio,imagem) na primeira entrada plota-se o dominio e na segunda entrada plota-se a imagem
